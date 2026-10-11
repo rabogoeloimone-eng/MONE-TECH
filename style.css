@@ -1,0 +1,187 @@
+h1{
+    color: blue;
+font-size: 40px;
+font-family: arial,sans-serif;
+background-color: black;
+text-align: center;
+padding: 30px 20px;
+max-width:650px;
+width: 100%;
+font-weight: bold;
+box-sizing: border-box;
+border: 2px solid blue;
+border-radius: 20px;
+margin: 50px auto 0;
+
+
+}
+p{
+line-height: 1.8;
+max-width: 600px;
+width: 100%;
+
+
+}
+body{
+background-color: #f2f2f2;
+color: #333333;
+}
+nav a{
+margin:0 15px ;
+text-decoration: none;
+color: #333333;
+transition: color 0.3s,transform 0.3;
+display: inline-block;
+}
+nav a:hover {
+color: blue;
+
+}
+nav{
+text-align: center;
+padding: 20px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex-wrap: wrap;
+
+}
+.bouton-contct{
+display: inline-block;
+background-color: blue;
+color: white;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 8px;
+}
+.bouton-contct:hover{
+background-color : darkblue;
+}
+#accueil a {
+margin-right: 15px;
+
+}
+#accueil {
+text-align: center;
+padding: 30px 20px;
+}
+#accueil p{
+margin: 20px auto;
+
+}
+#projets,#contact {
+padding: 30px 20px;
+margin-top: 20px;
+}
+.photo-profil {
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 50%;
+border: 3px solid blue;
+}
+.présentation{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 40px;
+max-width: 1100px;
+margin: 50px auto;
+padding: 20px;
+}
+.présentation-texte{
+    flex: 1;
+}
+.photo-profil{
+flex-shrink: 0;
+}
+.présentation-texte h1{
+margin: 0 auto 20px;
+
+}
+.présentation-texte p {
+    margin: 20px auto;
+}
+@media (max-width:600px){
+.présentation{
+
+flex-direction: column;
+gap: 20px;
+}
+.présentation-texte h1 {
+    font-size: 28px;
+}
+.présentation-texte{
+    width: 100%;
+}
+}
+#projets{
+    text-align: center;
+}
+.liste-projets{
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+.carte-projet {
+background-color: white;
+width: 250px;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+transition: transform 0.3s;
+border:1px solid #dddddd;
+
+
+}
+.carte-projet:hover{
+transform: translateY(-5px);
+}
+footer{
+background-color: #222222;
+color: white;
+text-align: center;
+padding: 25px 15px;
+margin-top: 40px;
+
+}
+footer p {
+margin: 0 0 15px;
+}
+footer a {
+color: #66aaff;
+text-decoration: none;
+transition: color 0.3s;
+}
+footer a:hover {
+color: white;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
